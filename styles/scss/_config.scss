@@ -1,0 +1,46 @@
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$grey-500: hsl(234, 12%, 34%);
+$grey-400: hsl(212, 6%, 44%);
+$white: hsl(0, 0%, 100%);
+$font-weight: (
+    "regular": 200,
+    "semi-bold": 400,
+    "bold": 600
+);
+
+@mixin display-flex ($flex-direction, $justify-contents, $align-items) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-contents;
+    align-items: $align-items; 
+} 
+
+@function set-font-weight($weight){
+   @return  map-get($font-weight, $weight)
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 2rem 2rem;
+    background-color: $white;
+    color: $grey-500;
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 450px){
+        @content;
+    }
+}

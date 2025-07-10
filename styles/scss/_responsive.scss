@@ -1,0 +1,35 @@
+@include media-lg {
+    body{
+        height: 100vh;   
+	}
+	.top-text .bold-description {
+		margin-top: 1rem;
+	}
+	main{
+		margin: -5rem 0;
+		display: grid;
+		grid-template-areas:".top." "left center right" ".bottom.";
+		justify-content: center;
+        
+        section {
+            max-width: 23rem;
+            position: relative;
+        }
+	}
+
+	.card-left{
+		grid-area: left;
+	}
+
+	.card-top{
+		grid-area: top;
+		transform: translateY(calc(50% + 1rem));
+	}
+	.card-right{
+		grid-area: right;
+	}
+	.card-bottom{
+		grid-area: bottom;
+		transform: translateY(calc(-50% - 1rem));
+	}
+}

@@ -1,0 +1,15 @@
+.top-text{
+    @include display-flex(column, center, center);
+    text-align: center;
+    
+    h1{
+        font-size: 1.7rem;
+    }
+
+    .regular-title-text{
+        font-weight: set-font-weight("regular");
+    }
+    .bold-description{
+        margin: 1rem 0 3rem 0;
+    }
+}
