@@ -74,6 +74,7 @@ I want to continue to learn more on building flexible layouts. Getting to know m
 
 - [Flexbox Froggy](https://flexboxfroggy.com/) - This fun game helped me put my css flexbox knowledge to the test. I'd recomend this to anyone who thinks they know their stuff (Flexbox).
 
+- [Learn Sass By freeCodeCamp on Youtube](https://m.youtube.com/watch?v=_a5j7KoflTs&t=35s&pp=ygUKbGVhcm4gc2Fzcw%3D%3D) - This lengthy yet helpful YouTube tutorial provided the exposure I needed to get started with Sass. It offered detailed information on how to set it up, as well as insights on how and why to use it. The best part was that it demonstrated Sass in a real-world project, allowing us to see how it functions in actual applications.
 
 
 ## Author
